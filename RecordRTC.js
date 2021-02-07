@@ -1730,7 +1730,7 @@ if (typeof AudioContext === 'undefined') {
 }
 
 /*jshint -W079 */
-var URL = window.URL;
+// var URL = window.URL;
 
 if (typeof URL === 'undefined' && typeof webkitURL !== 'undefined') {
     /*global URL:true */
@@ -4989,7 +4989,7 @@ function MultiStreamsMixer(arrayOfMediaStreams, elementClass) {
     }
 
     /*jshint -W079 */
-    var URL = window.URL;
+    // var URL = window.URL;
 
     if (typeof URL === 'undefined' && typeof webkitURL !== 'undefined') {
         /*global URL:true */
